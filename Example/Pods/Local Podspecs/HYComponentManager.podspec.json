@@ -1,0 +1,26 @@
+{
+  "name": "HYComponentManager",
+  "version": "0.2.0",
+  "summary": "HYComponentManager中间件,负责组件间的调用，提供了Protocol，组件遵循协议，并且实现此协议.",
+  "description": "TODO:HYComponentManager中间件,负责组件间的调用，提供了Protocol，组件遵循协议，并且实现此协议.",
+  "homepage": "http://git.houyicloud.com/wangyu/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangyu": "wangyu@houyicloud.com"
+  },
+  "source": {
+    "git": "http://git.houyicloud.com/wangyu/HYComponentManager.git",
+    "tag": "0.2.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HYComponentManager/Classes/**/*",
+  "prefix_header_contents": [
+    "#import <HYComponentManager/HYComponentManager.h>",
+    "#import <HYComponentManager/HYCMConnectorPrt.h>"
+  ]
+}

@@ -1,0 +1,14 @@
+
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HYComponentManager_Example' do
+  pod 'HYComponentManager', :path => '../'
+
+  target 'HYComponentManager_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HYComponentManager (0.2.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HYComponentManager (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  HYComponentManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HYComponentManager: 2cbcddf1912f893497e879e55f6925e72c796ec7
+
+PODFILE CHECKSUM: 2793c2b66e5f827672118b4eea61163916483bc6
+
+COCOAPODS: 1.5.3
